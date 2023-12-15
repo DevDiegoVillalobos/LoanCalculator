@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mortgage Calculator App
 
-## Getting Started
+This is a simple mortgage calculator application built with React.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+First, make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone this repository:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   git clone https://github.com/your-username/mortgage-calculator-app.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Then, navigate to the project directory: 
+    cd mortgage-calculator-app
 
-## Learn More
+Install dependencies:
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
 
-To learn more about Next.js, take a look at the following resources:
+2. Run the app:
+Run the development server:
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Modifying the Code
+MortgageCalculator Component
+The MortgageCalculator component is located in the app/components/mortgage_calculator.tsx file. 
+You can modify the initial values and customize the display of the button with the following props:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    1. amountMortg: Initial principal amount.
+    2. interestRate: Initial annual interest rate.
+    3. loanTerm: Initial loan term in years.
+    4. displayButton: Boolean to determine whether to display the button (default is false).
+    5. buttonText: Text for the optional button (only relevant if displayButton is true).
+    6. buttonLink: Link to navigate when the button is clicked (only relevant if displayButton is true).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to copy and paste the MortgageCalculator component and import it into other parts of your application, adjusting the props as needed.
