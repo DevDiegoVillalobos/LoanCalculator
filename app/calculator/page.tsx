@@ -10,9 +10,9 @@ export default function Home() {
         </div>
         <div>
           <MortgageCalculator
-            amountMortg={200}
-            interestRate={4.5}
-            loanTerm={30}
+            amountMortg={100}
+            interestRate={5.5}
+            loanTerm={1}
             
             displayButton={true}
             buttonText="Go to Another Page"

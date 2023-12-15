@@ -4,35 +4,41 @@ This is a simple mortgage calculator application built with React.
 
 ## Installation
 
-First, make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+First, make sure you have [Node.js Latest version](https://nodejs.org/) installed on your machine.
 
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/mortgage-calculator-app.git
+   git clone https://github.com/DevDiegoVillalobos/LoanCalculator.git
 
-Then, navigate to the project directory: 
-    cd mortgage-calculator-app
+    Then, navigate to the project directory: 
 
-Install dependencies:
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
+   ```bash
+   cd mortgage-calculator-app
+
+    Install dependencies:
+        npm install
+        **or**
+        yarn install
+        **or**
+        pnpm install
 
 2. Run the app:
-Run the development server:
+
+    Run the development server:
+
     npm run dev
-    # or
+    **or**
     yarn dev
-    # or
+    **or**
     pnpm dev
-    # or
+    **or**
     bun dev
 
 3. Modifying the Code
+
 MortgageCalculator Component
+
 The MortgageCalculator component is located in the app/components/mortgage_calculator.tsx file. 
 You can modify the initial values and customize the display of the button with the following props:
 
